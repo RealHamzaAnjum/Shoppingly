@@ -1,0 +1,30 @@
+
+.descriptionbox {
+    padding: 20px;
+    background-color: #f8f9fa; 
+    border-radius: 5px;
+  }
+  
+  .descriptionbox-nevigator {
+    border-bottom: 2px solid #dee2e6; 
+  }
+  
+  .descriptionbox-nav-box, .descriptionbox-nav-box-fade {
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .descriptionbox-nav-box {
+    font-weight: bold;
+    color: #007bff; 
+  }
+  
+  .descriptionbox-nav-box-fade {
+    color: #6c757d; 
+  }
+  
+  .descriptionbox-description p {
+    margin-bottom: 1rem; 
+  }
+  

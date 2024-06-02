@@ -1,0 +1,33 @@
+.item {
+    margin-bottom: 1.5rem; 
+    width: 280px;
+  }
+  
+  .item img {
+    width: 100%;
+    display: block; 
+  }
+  
+  .item p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0; 
+  }
+  
+  .item-prices {
+    display: flex;
+    gap: 20px;
+    align-items: baseline; 
+  }
+  
+  .item-price-new {
+    color: green; 
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .item-price-old {
+    color: red; 
+    text-decoration: line-through; 
+    font-size: 1rem;
+  }
+  
