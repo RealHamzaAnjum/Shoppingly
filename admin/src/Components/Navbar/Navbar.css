@@ -1,0 +1,48 @@
+/* Navbar.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f8f9fa; 
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo {
+  width: 30px;
+  height: 30px;
+}
+
+.navbar-toggle {
+  display: none; 
+}
+
+.navbar-login-cart {
+  display: flex;
+  align-items: center;
+}
+
+.nav-profile {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%; 
+}
+
+@media (max-width: 768px) {
+  .navbar-toggle {
+    display: block; 
+  }
+
+  .navbar-login-cart {
+    display: none; 
+  }
+
+  .navbar-login-cart.visible {
+    display: flex; 
+  }
+}

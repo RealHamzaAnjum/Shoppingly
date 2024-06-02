@@ -1,0 +1,114 @@
+.list-product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 6px;
+    background: #f5f5f5;
+    overflow-y: auto;
+  }
+  
+  .listproduct-format {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    width: 100%;
+    padding: 10px 0;
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+    border-bottom: 2px solid #ddd;
+    background-color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .listproduct-main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    align-items: center;
+    font-weight: 500;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  .listproduct-all {
+    width: 100%;
+  }
+  
+  .pdf-content {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .pdf-header,
+  .pdf-footer {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .pdf-header h1,
+  .pdf-footer p {
+    margin: 0;
+    padding: 10px 0;
+  }
+  
+  .pdf-order-details {
+    margin: 20px 0;
+  }
+  
+  .pdf-order-details p {
+    margin: 5px 0;
+  }
+  
+  .pdf-order-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  @media (max-width: 800px) {
+    .list-product {
+      box-sizing: border-box;
+      width: 95%;
+      height: 100%;
+      padding: 10px 30px;
+      margin: 20px auto;
+    }
+    .listproduct-format {
+      padding: 15px 0px;
+      color: rgb(68, 63, 63);
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .listproduct-main {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .listproduct-main .col-md-2 {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+  
+  @media print {
+    .pdf-content {
+      box-shadow: none;
+    }
+  }
+  
